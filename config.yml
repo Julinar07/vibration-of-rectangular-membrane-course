@@ -1,0 +1,18 @@
+title: Vibration of Rectangular Membrane
+description: >-
+  In this course i want to show my source code, i built it using MATLAB on GUI
+  form
+template:
+  repo: vibration-of-rectangular-membrane-template
+  name: vibration-of-rectangular-membrane
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
